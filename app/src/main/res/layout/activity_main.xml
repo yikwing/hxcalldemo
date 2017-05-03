@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.lwkandroid.hxcalldemo.MainActivity">
+
+    <EditText
+        android:id="@+id/ed_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入对方手机号码"/>
+
+    <Button
+        android:id="@+id/btn_main_voice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发起实时语音通话"/>
+
+    <Button
+        android:id="@+id/btn_main_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发起实时视频通话"/>
+</LinearLayout>

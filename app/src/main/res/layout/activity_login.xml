@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lwkandroid.hxcalldemo.LoginActivity">
+
+    <EditText
+        android:id="@+id/ed_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="输入手机号"/>
+
+    <EditText
+        android:id="@+id/ed_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed_phone"
+        android:layout_marginTop="20dp"
+        android:hint="输入密码"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed_pwd"
+        android:layout_marginTop="40dp"
+        android:text="登录"/>
+
+</RelativeLayout>
